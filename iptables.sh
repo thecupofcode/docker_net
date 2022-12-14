@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Accept input for docker-proxy
+# Accept input from specified interface(s) (INPUT because of using docker-proxy service)
 iptables -A INPUT -i tun+ -p tcp -m tcp --dport 8080 -j ACCEPT
 
 # Accept forward to nat interface
