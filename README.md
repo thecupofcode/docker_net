@@ -1,7 +1,7 @@
 # How to use Docker with already configured firewall
 ## For example, here is modified docker-compose.yaml for MediaWiki (https://hub.docker.com/_/mediawiki)
 ### /etc/docker/daemon.json
-Use thesse settings for disable iptables auto-adjustment
+Use these settings for disable iptables auto-adjustment
 ```
 {
   ...
